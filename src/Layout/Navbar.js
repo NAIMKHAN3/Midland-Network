@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { FaAlignJustify } from 'react-icons/fa'
 import { ImCancelCircle } from 'react-icons/im'
+import logo from '../Home/images/logo.png'
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -9,7 +10,7 @@ const Navbar = () => {
     }
     const navItem = 'text-lg md:ml-4 mb-1 hover:bg-neutral-100 px-5 py-1 rounden-md cursor-pointer font-semibold'
     const item = <ul className='flex md:items-center flex-col lg:flex-row md:justify-center'>
-        <li><img className='w-[75px] hidden lg:block' src="/images/img-29.png" alt="" /></li>
+        <li><img className='w-[75px] hidden lg:block' src={logo} alt="" /></li>
         <li className={`${navItem}`}>Home</li>
         <li className={`${navItem}`}>About</li>
         <li className={`${navItem}`}>Services</li>
@@ -22,7 +23,7 @@ const Navbar = () => {
 
     </ul>
     return (
-        <div className='p-4 shadow-sm border-b-[1px] w-full'>
+        <div className='p-4 shadow-sm  w-full'>
             <div className='hidden lg:block'>
 
                 {
@@ -40,7 +41,7 @@ const Navbar = () => {
 
             </div>
             <div className='lg:hidden flex justify-between'>
-                <div><img className='w-[50px]' src="/images/img-29.png" alt="" /></div>
+                <div><img className='w-[50px]' src={logo} alt="" /></div>
                 {
                     isOpen ? <div><ImCancelCircle onClick={toggleIsOpen} className='text-2xl cursor-pointer' /></div> :
                         <div><FaAlignJustify onClick={toggleIsOpen} className='text-2xl cursor-pointer' /></div>
