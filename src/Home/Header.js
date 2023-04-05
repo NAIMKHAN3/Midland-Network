@@ -4,9 +4,10 @@ import header from './images/header.jpg'
 
 const Header = () => {
     return (
-        <div className=' bg-cover bg-center lg:h-[650px] w-full mx-auto my-10 sm:bg-none' style={{ backgroundImage: `url(${header})` }}>
-            <div className='flex h-full justify-start items-center w-[72%] mx-auto'>
-                <div className='lg:w-[550px]'>
+
+        <div className=' bg-cover bg-center lg:h-[650px] w-full  mx-auto my-10' style={{ backgroundImage: `url(${header})` }}>
+            <div className='flex h-full justify-start items-center max-w-[80%]  mx-auto'>
+                <div className='lg:w-[550px]  '>
                     <h1 className='my-auto text-4xl font-semibold'>Midland Network </h1>
                     <h1 className='my-3 text-4xl font-semibold'>We are
                         <Typical className='text-3xl text-cyan-400 mb-5 inline'
@@ -23,6 +24,7 @@ const Header = () => {
             </div>
 
         </div>
+
     );
 };
 
