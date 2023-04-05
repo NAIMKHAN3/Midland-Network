@@ -1,9 +1,10 @@
 import './App.css';
+import Main from './Layout/Main';
 
 function App() {
   return (
-    <div className="App">
-      <h1 className='text-3xl text-center font-bold text-emerald-950'>My Name is Kamrul Islam</h1>
+    <div className='bg-neutral-100'>
+      <Main />
     </div>
   );
 }
