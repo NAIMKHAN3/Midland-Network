@@ -6,6 +6,7 @@ import MidlandDefferance from './MidlandDefferance/MidlandDefferance';
 import Supporting from './Supporting/Supporting';
 import Belive from './Belive/Belive';
 import Award from './Award/Award';
+import StayUpdate from './StayUpdate/StayUpdate';
 
 
 const Home = () => {
@@ -18,6 +19,7 @@ const Home = () => {
             <Supporting></Supporting>
             <Belive></Belive>
             <Award />
+            <StayUpdate />
         </div>
     );
 };
