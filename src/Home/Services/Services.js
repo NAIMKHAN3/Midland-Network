@@ -13,7 +13,7 @@ import "swiper/css/navigation";
 const Services = () => {
     return (
         <div className='max-w-[80%] my-10 mx-auto'>
-            <h1 className='text-4xl'>Services. <span className='text-gray-600'>Here where the fun begins.</span></h1>
+            <h1 className='font-semibold text-3xl'>Services. <span className='text-gray-600'>Here where the fun begins.</span></h1>
 
             <Swiper
                 breakpoints={{

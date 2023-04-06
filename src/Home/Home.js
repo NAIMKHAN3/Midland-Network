@@ -2,6 +2,7 @@ import React from 'react';
 import Header from './Header';
 import Services from './Services/Services';
 import Help from './Help/Help';
+import MidlandDefferance from './MidlandDefferance/MidlandDefferance';
 
 
 const Home = () => {
@@ -10,6 +11,7 @@ const Home = () => {
             <Header></Header>
             <Services />
             <Help />
+            <MidlandDefferance />
         </div>
     );
 };

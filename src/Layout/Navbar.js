@@ -8,7 +8,7 @@ const Navbar = () => {
     const toggleIsOpen = () => {
         setIsOpen(value => !value)
     }
-    const navItem = 'text-lg md:ml-4 mb-1 hover:bg-neutral-100 px-5 py-1 rounden-md cursor-pointer font-semibold'
+    const navItem = 'text-md md:ml-4 mb-1 hover:bg-neutral-100 px-5 py-1 rounden-md cursor-pointer font-semibold'
     const item = <ul className='flex md:items-center flex-col lg:flex-row md:justify-center'>
         <li><img className='w-[75px] hidden lg:block' src={logo} alt="" /></li>
         <li className={`${navItem}`}>Home</li>

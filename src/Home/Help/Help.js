@@ -8,7 +8,7 @@ import guidence from '../images/guidence.png'
 const Help = () => {
     return (
         <div className='max-w-[80%] my-10 mx-auto '>
-            <h1 className='text-4xl'>Help is here. <span className='text-gray-600'>Always ready for you.</span></h1>
+            <h1 className='font-semibold text-3xl'>Help is here. <span className='text-gray-600'>Always ready for you.</span></h1>
             <div className='grid grid-cols-1 md:grid-cols-2 gap-4 max-w-5xl-auto my-10'>
                 <div className=' bg-white rounded-xl row-span-2'>
                     <div className='p-7'>
