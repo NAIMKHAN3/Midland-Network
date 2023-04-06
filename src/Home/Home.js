@@ -5,6 +5,7 @@ import Help from './Help/Help';
 import MidlandDefferance from './MidlandDefferance/MidlandDefferance';
 import Supporting from './Supporting/Supporting';
 import Belive from './Belive/Belive';
+import Award from './Award/Award';
 
 
 const Home = () => {
@@ -16,6 +17,7 @@ const Home = () => {
             <MidlandDefferance />
             <Supporting></Supporting>
             <Belive></Belive>
+            <Award />
         </div>
     );
 };

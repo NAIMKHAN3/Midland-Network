@@ -37,7 +37,7 @@ const Services = () => {
                 //     clickable: true,
                 // }}
                 modules={[FreeMode, Pagination, Navigation]}
-                className="mySwipe"
+                className="mySwipe cursor-pointer"
             >
                 <SwiperSlide className='h-[420px]'>
 
