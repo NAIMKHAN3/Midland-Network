@@ -10,7 +10,7 @@ import nec from '../images/nec.png'
 
 const Supporting = () => {
     return (
-        <div className='bg-white mt-10 p-14'>
+        <div className='bg-white mt-10 p-5 md:p-14'>
 
             <div className='bg-neutral-100 flex flex-col-reverse max-w-6xl md:grid grid-cols-1 md:grid-cols-2 p-5 md:px-20 md:py-14 rounded-lg mx-auto'>
                 <div className='my-auto'>

@@ -5,7 +5,7 @@ import expertice from '../images/expertice.jpg'
 
 const Belive = () => {
     return (
-        <div className='max-w-[80%] mt-10 mx-auto p-10'>
+        <div className='max-w-[80%] mt-10 mx-auto p-5 md:p-10'>
             <h1 className='font-semibold text-3xl'>Our belives. <span className='text-gray-600'>The way we do business.</span></h1>
             <div className='grid grid-cols-1 md:grid-cols-2 bg-white rounded-lg shadow-sm my-10'>
                 <div className='my-auto p-10'>
