@@ -10,7 +10,7 @@ import logo from '../images/logo.png'
 
 const MidlandDefferance = () => {
     return (
-        <div className='max-w-[80%] my-10 mx-auto'>
+        <div className='max-w-[80%] mt-10 mx-auto'>
             <h1 className='font-semibold text-3xl'>The Midland Networks difference. <span className='text-gray-600'>Thats right!</span></h1>
             <Swiper
                 breakpoints={{

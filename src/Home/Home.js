@@ -3,6 +3,7 @@ import Header from './Header';
 import Services from './Services/Services';
 import Help from './Help/Help';
 import MidlandDefferance from './MidlandDefferance/MidlandDefferance';
+import Supporting from './Supporting/Supporting';
 
 
 const Home = () => {
@@ -12,6 +13,7 @@ const Home = () => {
             <Services />
             <Help />
             <MidlandDefferance />
+            <Supporting></Supporting>
         </div>
     );
 };
