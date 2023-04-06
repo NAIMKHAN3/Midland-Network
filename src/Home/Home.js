@@ -7,6 +7,8 @@ import Supporting from './Supporting/Supporting';
 import Belive from './Belive/Belive';
 import Award from './Award/Award';
 import StayUpdate from './StayUpdate/StayUpdate';
+import Footer from './Footer/Footer';
+import ClientTestomonial from './ClientTestomonial/ClientTestomonial';
 
 
 const Home = () => {
@@ -17,9 +19,11 @@ const Home = () => {
             <Help />
             <MidlandDefferance />
             <Supporting></Supporting>
-            <Belive></Belive>
+            <ClientTestomonial />
             <Award />
+            <Belive></Belive>
             <StayUpdate />
+            <Footer />
         </div>
     );
 };
