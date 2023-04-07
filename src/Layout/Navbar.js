@@ -23,7 +23,7 @@ const Navbar = () => {
 
     </ul>
     return (
-        <div className='p-4 shadow-sm  w-full'>
+        <div className='p-4  w-full bg-neutral-100 fixed top-0 z-10' data-aos="fade-down" data-aos-duration="1000">
             <div className='hidden lg:block'>
 
                 {

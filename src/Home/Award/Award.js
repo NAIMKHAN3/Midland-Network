@@ -11,7 +11,7 @@ import logo from '../images/logo.png'
 
 const Award = () => {
     return (
-        <div className='max-w-[80%] mt-10 mx-auto'>
+        <div className='max-w-[80%] mt-10 mx-auto' data-aos="fade-up" data-aos-duration="1000">
             <h1 className='font-semibold text-3xl'>Award winnning service. <span className='text-gray-600'>National recognition.</span></h1>
             <Swiper
                 breakpoints={{

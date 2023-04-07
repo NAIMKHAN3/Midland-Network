@@ -12,7 +12,7 @@ import "swiper/css/navigation";
 
 const Services = () => {
     return (
-        <div className='max-w-[80%] my-10 mx-auto'>
+        <div className='max-w-[80%] my-10 mx-auto' data-aos="fade-up" data-aos-duration="1000">
             <h1 className='font-semibold text-3xl'>Services. <span className='text-gray-600'>Here where the fun begins.</span></h1>
 
             <Swiper

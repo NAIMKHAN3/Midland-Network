@@ -10,9 +10,9 @@ import nec from '../images/nec.png'
 
 const Supporting = () => {
     return (
-        <div className='bg-white mt-10 p-5 md:p-14'>
+        <div className='bg-white mt-10 p-5 md:p-14' data-aos="fade-up" data-aos-duration="1000">
 
-            <div className='bg-neutral-100 flex flex-col-reverse max-w-6xl md:grid grid-cols-1 md:grid-cols-2 p-5 md:px-20 md:py-14 rounded-lg mx-auto'>
+            <div className='bg-neutral-100 flex flex-col-reverse max-w-6xl md:grid grid-cols-1 md:grid-cols-2 p-5 md:px-20 md:py-14 rounded-xl mx-auto shadow-lg'>
                 <div className='my-auto'>
 
                     <h1 className='text-4xl font-semibold my-5'>Supporting any <br /> business size</h1>

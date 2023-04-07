@@ -11,7 +11,7 @@ import "swiper/css/pagination";
 
 const ClientTestomonial = () => {
     return (
-        <div className='bg-indigo-900 p-5'>
+        <div className='bg-gradient-to-r from-indigo-400 to-indigo-900 p-1' data-aos="fade-up" data-aos-duration="1000">
             <div className='max-w-[80%] my-10 mx-auto'>
                 <h1 className='text-4xl font-semibold text-white text-center mb-3'>Clients testimonials</h1>
                 <h1 className='font-semibold text-gray-300 text-center mb-10'>Don’t just take our word for it.</h1>

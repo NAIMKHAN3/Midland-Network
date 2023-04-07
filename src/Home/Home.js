@@ -9,11 +9,12 @@ import Award from './Award/Award';
 import StayUpdate from './StayUpdate/StayUpdate';
 import Footer from './Footer/Footer';
 import ClientTestomonial from './ClientTestomonial/ClientTestomonial';
+import Connect from './Connect/Connect';
 
 
 const Home = () => {
     return (
-        <div>
+        <div className=''>
             <Header></Header>
             <Services />
             <Help />
@@ -22,6 +23,7 @@ const Home = () => {
             <ClientTestomonial />
             <Award />
             <Belive></Belive>
+            <Connect />
             <StayUpdate />
             <Footer />
         </div>

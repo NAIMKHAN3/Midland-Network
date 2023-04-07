@@ -7,7 +7,7 @@ import { MdOutlineLocationOn, MdOutlinePhoneInTalk, MdOutlineMail } from 'react-
 
 const Footer = () => {
     return (
-        <div className='bg-indigo-900 p-5'>
+        <div className='bg-indigo-900 p-5' data-aos="fade-up" data-aos-duration="1000">
             <div className='max-w-[80%] my-10 mx-auto'>
                 <div className='grid grid-cols-1 md:grid-cols-5 lg:grid-cols-9 gap-5'>
                     <div className='col-span-3'>
